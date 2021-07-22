@@ -78,7 +78,7 @@
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>NAME APP - {{$auth.user.name}} {{$auth.user.lastname}}</v-toolbar-title>
+      <v-toolbar-title>Blog - {{$auth.user.name}} {{$auth.user.lastname}}</v-toolbar-title>
       <v-spacer />
     </v-app-bar>
     <v-main>
