@@ -116,6 +116,11 @@ export default {
           to: '/'
         },
         {
+          icon: 'mdi-newspaper-plus',
+          title: 'Crear un Post',
+          to: '/crear/post'
+        },
+        {
           icon: 'mdi-logout',
           title: 'Salir del sistema',
           to: '/loggout'
